@@ -2,7 +2,7 @@ from funcao_arrumar import arrumar
 
 def inclinacao_1(celula):
     print("Função data_1_instancia: Em andamento")
-    padrao_inclinacao = ['Desfavorável à Anatel', 'Favorável à Anatel', 'Parcialmente desfavorável à Anatel']
+    padrao_inclinacao = ['Desfavorável', 'Favorável', 'Parcialmente desfavorável']
     info = celula.text.split()
     inclinacao = "-"
     inclinacao_teste = "-"
